@@ -32,14 +32,17 @@ This version of the app has some changes:
 *   New features for users in various stages of completion.
 
 **Implemented**
+
 1.  A user can now view the average score for a film. Handled by
     ```Moviescontroller#score```.
+
 2.  A user can now view all films reviewed by the reviewers of a given film.
     Handled by ```Moviescontroller#viewed_with```.
 
 **Planned**
-1.  A user should be able to see all of a Moviegoer's Reviews. This will
-    involve a query that looks like ```moviegoer.reviews```.
+
+1.  A user should be able to see all of a Moviegoer's Reviews. This will involve
+    a query that looks like ```moviegoer.reviews```.
 
 Unfortunately, the way that the prototype database is set up will prevent these
 great new features from scaling very well. As the number of Reviews grows, the
